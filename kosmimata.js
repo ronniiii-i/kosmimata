@@ -113,7 +113,7 @@ app.use('/stud', test)
 
 app.listen(7665);
 
-// console.log('Now the server is running in url: http://127.0.0.1:7665');
-app.listen(port, "192.168.0.195" || "localhost" ,() => {
-    console.log(`Listening to requests on http://localhost:${port}`);
-  });
+console.log('Now the server is running in url: http://127.0.0.1:7665');
+// app.listen(port, "192.168.0.195" || "localhost" ,() => {
+//     console.log(`Listening to requests on http://localhost:${port}`);
+//   });
